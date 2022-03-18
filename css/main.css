@@ -1,0 +1,54 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+h2{
+  background-color: white
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 20fr 5fr 40fr 5fr 5fr 10fr 15fr;
+  grid-template-rows:10vh 35vh 10vh 35vh 10vh;
+}
+
+#container .celda1{
+  grid-column: 1/8;
+  grid-row: 1/2;
+  background-color: black;
+  text-align: center;
+}
+
+#container .celda1 {
+  color: red;
+}
+
+#container .celda2{
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-color: black;
+  text-align: center;
+}
+}
+
+#container .celda2 {
+  color: red;
+}
+
+#container .celda3{
+  grid-column: 3/3;
+  grid-row: 4/5;
+}
+
+
+#container .celda4{
+  grid-column: 2/3;
+  grid-row: 6/7;
+  background-color: black;
+}
